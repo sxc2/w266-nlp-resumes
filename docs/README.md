@@ -16,7 +16,7 @@ Keywords: Semi-Structured Documents; Resumes; LSTM RNN
 
 There has been rapid growth of digital semi-structured data in the last couple of decades, examples being medical records, online profiles and linked semantic data. Many technologies and tools also gained prominence as a medium of exchanging such information, such as json, XML for loose structure definition and MongoDB and NoSQL for storage. Understanding, parsing, extraction and prediction on these types of data set has also spurned different kinds of tools. From MongoDB query language to JQuery class selectors, loosely quering and parsing this type of information is a very different paradigm from both traditional relational databases as well as raw text. 
 
-While machine learning based NLP has primarily focused on raw text as the primary input, there has been increasily more research on how deep learning can be applied to semi-structured data for information extraction and prediction. This paper explores the impact of HTML structure in semi-structured resumes for prediction in bi-directional LSTM RNN using TFIDF logistic regression as a baseline.
+While machine learning based NLP has primarily focused on raw text as the primary input, there has been increasily more research on how deep learning can be applied to semi-structured data for information extraction and prediction [1][2][3]. This paper explores the impact of HTML structure in semi-structured resumes for prediction in bi-directional LSTM RNN using TFIDF logistic regression as a baseline.
 
 Reasons why applications of machine learning is interesting
 
@@ -28,14 +28,14 @@ We aim to compare these two methodologies with respect to each other on the corp
 
 ## 2 Project Overview
 ### 2.1 Background
-Previous work successfully leveraged HTML markup structure in web documents with deep neural networks to successfully parse and extract information [8][9]. Other work extracted structure and clustered text as a means to narrow the search space and produce more accurate results [6][7]. Hence, we know it's possible that using structure in deep neural networks for parsing and extraction can be beneficial. 
+Previous work successfully leveraged HTML markup structure in web documents with deep neural networks to successfully parse and extract information [6][7]. Other work extracted structure and clustered text as a means to narrow the search space and produce more accurate results [4][5]. Hence, we know it's possible that using structure in deep neural networks for parsing and extraction can be beneficial. 
 
 < some other background on problem approach>
 
 ### 2.2 Datasets Utilized
 We used pre-scraped dump of 8 million unique English resumes from Indeed from 2017 (https://resumes.indeed.com/). The resumes are in HTML with consistent classes and ids for corresponding sections of the resume. For example, individual work experiences are consistently classed 'work-experience-section' which nests under a work experience section, with id 'work-experience-items'. 
 
-We also used word2vec slim (https://github.com/eyaler/word2vec-slim) as pretrained embeddings, with a vocabulary size of 300k trained from Google News. Because the vocabulary of resumes is dominated contain common English terms, and that pretrained embeddings can boost performance on the relatively small sampled data sets we used to run models [11]. < why word2vec? >
+We also used word2vec slim (https://github.com/eyaler/word2vec-slim) as pretrained embeddings, with a vocabulary size of 300k trained from Google News. Because the vocabulary of resumes is dominated contain common English terms, and that pretrained embeddings can boost performance on the relatively small sampled data sets we used to run models [9]. < why word2vec? >
 
 
 ### 2.3 Problem Approach
@@ -52,7 +52,7 @@ Our methodology was to start with an exploratory analysis, ensuring that for unb
 
 We sampled our dataset for training sets of roughly 30,000 to 40,000, validating on 10,000 resumes with random resampling. The development set was a separate batch of 50,000 resumes. Originally, we aimed for an order of magnitude larger for training, but hit time and resource limitations when training 50 variants of LSTM networks for our predictor variables.
 
-As baselines, we ran both TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common and fast baseline models for text classification [12].  
+As baselines, we ran both TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common and fast baseline models for text classification [10].  
 
 Variants of Bi-Directional LSTM RNN was chosen as the main model of comparison against baselines. Due to the nature of HTML contain open and end tags to represent a section, we hypothesized that bi-directional will allow us to capture backward and future context for a HTML structured representation. We chose a LSTM RNN because we wanted to capture long range dependencies in the resume, potentially extrapolating conclusions from different sections of the resume.  
 
@@ -98,7 +98,7 @@ Because our sampled training dataset was relatively small, we incorporated the p
 ## 3 Model
 ### 3.1 Baseline Models
 
-Given the training datasets we created, we built two baseline models using TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common baseline models for text classification [12]. Naive Bayes was able to statistically identify high salience terms while Logistic Regression serves as a baseline and sanity test, as it is essentially a single neuron neural network with a linear decision boundary. TFIDF is chosen over absolute counts for vectorization as it more effectively categorizes relevant terms in a document [13]. 
+Given the training datasets we created, we built two baseline models using TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common baseline models for text classification [10]. Naive Bayes was able to statistically identify high salience terms while Logistic Regression serves as a baseline and sanity test, as it is essentially a single neuron neural network with a linear decision boundary. TFIDF is chosen over absolute counts for vectorization as it more effectively categorizes relevant terms in a document [11]. 
 
 We created 4 baselines for each predictor, using Logistic Regression and Naive Bayes for both plain text resumes and HTML decorated resumes. Results are shown in figure <>.
 
@@ -110,7 +110,7 @@ Logistic Regression models that included engineered features did not perform sub
 
 ### 3.3 Bi-Directional LSTM
 
-The training objective of our model is cross-entropy loss using ADAM optimizer. A recurrent dropout layer was applied and the rate set to 0.1. We used pretrained Word2Vec slim to initialize token embeddings. Words not in the vocabulary were initialized by random normals with mean and standard deviation derived from the loaded embeddings. Batch size was set to 32 examples. The model is implemented using the deep learning framework Keras [14].
+The training objective of our model is cross-entropy loss using ADAM optimizer. A recurrent dropout layer was applied and the rate set to 0.1. We used pretrained Word2Vec slim to initialize token embeddings. Words not in the vocabulary were initialized by random normals with mean and standard deviation derived from the loaded embeddings. Batch size was set to 32 examples. The model is implemented using the deep learning framework Keras [12].
 
 ### 3.4 Tuning Bi-Directional LSTM
 
@@ -167,35 +167,40 @@ We demonstrated the viability of using structured HTML in Bi-Directional LSTM RN
 Despite the positive results, utilizing larger training sets, creating a custom trained set of embeddings from the resume corpus, and further tuning of LSTM input parameters would likely improve performance for each of the predictor variables we tested. 
 
 ## References
-[10] Wikipedia: Semi-structured data
+
+[1] H. Wang, X. Zhang, A Neural Question Answering Model Based on Semi-Structured Tab
+http://aclweb.org/anthology/C18-1165
+
+[2] J. Krishnamurthy, P. Dasigi, and M. Gardner, Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
+https://www.aclweb.org/anthology/D17-1160
+
+[3] G. Qin, J.G. Yao, Learning Latent Semantic Annotations for Grounding Natural Language to Structured Data
+http://aclweb.org/anthology/D18-1411
+
+[4] E. Angelino, Extracting Structure from human-readable Semistructured Text
+https://people.eecs.berkeley.edu/~elaine/pubs/angelino-structure.pdf
+
+[5] A. Hotho, S. Staab, G. Stumme, Text Clustering Based on Background Knowledge
+https://pdfs.semanticscholar.org/56d0/7518b3a83229656a993adf0dd64ba26da3a6.pdf
+
+[6] T. Gogar, O. Hubacek, J. Sedivy, Deep Neural Networks for Web Page Information Extraction
+https://hal.inria.fr/hal-01557648/document
+
+[7] A. García-Plaza, V. Fresno, Using Fuzzy Logic to Leverage HTML Markup for Web Page Representation
+https://ieeexplore.ieee.org/abstract/document/7505655
+
+[8] Wikipedia: Semi-structured data
 https://en.m.wikipedia.org/wiki/Semi-structured_data
-[11] When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?
+
+[9] Y. Qi, D. Sachan, When and Why are Pre-trained Word Embeddings Useful for Neural Machine Translation?
 https://www.aclweb.org/anthology/N18-2084
 
-[12] Baselines and bigrams: simple, good sentiment and topic classification
+[10] S. Wang, C. Manning, Baselines and bigrams: simple, good sentiment and topic classification
 https://dl.acm.org/citation.cfm?id=2390688
 
-[13] Using TF-IDF to Determine Word Relevance in Document Queries 
+[11] J. Ramos, Using TF-IDF to Determine Word Relevance in Document Queries 
 https://www.semanticscholar.org/paper/Using-TF-IDF-to-Determine-Word-Relevance-in-Queries-Ramos/b3bf6373ff41a115197cb5b30e57830c16130c2c
 
-[14] Keras: The Python Deep Learning library
+[12] Keras: The Python Deep Learning library
 https://keras.io/
 
-[1] A Boosting Algorithm for Classification of Semi-Structured Text
-http://aclweb.org/anthology/W04-3239
-[2] A Neural Question Answering Model Based on Semi-Structured Tab
-http://aclweb.org/anthology/C18-1165
-[3] Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
-https://www.aclweb.org/anthology/D17-1160
-[4] Learning Latent Semantic Annotations for Grounding Natural Language to Structured Data
-http://aclweb.org/anthology/D18-1411
-[5] Measuring Beginner Friendliness of Japanese Web Pages explaining Academic Concepts by Integrating Neural Image Feature and Text Features
-http://aclweb.org/anthology/W18-3721
-[6] Extracting Structure from human-readable Semistructured Text
-https://people.eecs.berkeley.edu/~elaine/pubs/angelino-structure.pdf
-[7] Text Clustering Based on Background Knowledge
-https://pdfs.semanticscholar.org/56d0/7518b3a83229656a993adf0dd64ba26da3a6.pdf
-[8] Deep Neural Networks for Web Page Information Extraction
-https://hal.inria.fr/hal-01557648/document
-[9] Using Fuzzy Logic to Leverage HTML Markup for Web Page Representation
-https://ieeexplore.ieee.org/abstract/document/7505655
