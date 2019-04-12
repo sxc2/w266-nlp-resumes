@@ -1,12 +1,15 @@
 # Analysis of Structure in Semi-Structured Resumes for Prediction and Classification
 
 Sophia X Cui
+
 W 266: Natural Language Processing
+
 UC Berkeley School of Information
+
 sophia@ischool.berkeley.edu
 
 ## Abstract
-Semi-structured documents encompass a wide corpus of documents available on the web (medical records, resumes, Wikipedia, etc). For these types of documents, metadata embedded in the structure as well as the hierarchy often provides extra insight for contextual understanding and interpretation. (add a line for motivation) This project explored the impact of structure and metadata from a set of semi-structured resumes with respect to classification and prediction. The relatively high accuracy rates obtained on both baseline and bi-directional LSTM RNN on several types of predictions suggest that utilizing the HTML structure of documents could be a promising approach to certain types of analysis on such corpi.
+Semi-structured documents encompass a wide corpus of documents available on the web (medical records, online profiles, semantic linked data, Wikipedia, etc). For these types of documents, metadata embedded in the structure as well as the hierarchy often provides additional insight for contextual understanding and interpretation. While a larger bold font denotes a section heading to human readers, machine learning may not glean the importance of the code that styled such text. This project explored the impact of structure and metadata from a set of semi-structured HTML-formatted resumes with respect to classification and prediction. The relatively high accuracy rates obtained by bi-directional LSTM RNNs on several types of predictions suggest that utilizing the structure and metadata of documents could be a promising approach to machine learning on such corpi.
 
 Keywords: Semi-Structured Documents; Resumes; LSTM RNN
 
@@ -14,86 +17,74 @@ Keywords: Semi-Structured Documents; Resumes; LSTM RNN
 
 "Semi-structured data is a form of structured data that does not conform with the formal structure of data models associated with relational databases or other forms of data tables, but nonetheless contains tags or other markers to separate semantic elements and enforce hierarchies of records and fields within the data." - Wikipedia 
 
-There has been rapid growth of digital semi-structured data in the last couple of decades, examples being medical records, online profiles and linked semantic data. Many technologies and tools also gained prominence as a medium of exchanging such information, such as json, XML for loose structure definition and MongoDB and NoSQL for storage. Understanding, parsing, extraction and prediction on these types of data set has also spurned different kinds of tools. From MongoDB query language to JQuery class selectors, loosely quering and parsing this type of information is a very different paradigm from both traditional relational databases as well as raw text. 
+There has been rapid growth of digital semi-structured data in the last couple of decades, examples being medical records, online profiles and linked semantic data. Many technologies and tools also gained prominence as mediums of exchange, such as json or XML for loose structure definition and MongoDB and NoSQL for storage. Parsing, extraction and prediction on these types of data set has also spurned different kinds of tools. From MongoDB query language to JQuery class selectors, loosely parsing and querying this type of information is a different paradigm from both traditional relational databases and plain text. 
 
-While machine learning based NLP has primarily focused on raw text as the primary input, there has been increasily more research on how deep learning can be applied to semi-structured data for information extraction and prediction [1][2][3]. This paper explores the impact of HTML structure in semi-structured resumes for prediction in bi-directional LSTM RNN using TFIDF logistic regression as a baseline.
-
-Reasons why applications of machine learning is interesting
-
-Traditional NLP focused on NGrams.
-
-
-We aim to compare these two methodologies with respect to each other on the corpus of resumes, which represents a substantial class of semi-structured documents (medical records, resumes, Wikipedia, etc). These documents contain discrete sections and most times contain HTML markup (available on the web). 
-
+While machine learning based NLP has primarily focused on raw text as the primary input, there has been increasily more research on how deep learning can be applied to semi-structured data for information extraction and prediction [1][2][3]. Neural language models such as bi-directional LSTM RNNs can capture remote dependencies across forward and backward time scales which suits structured text embedded with open and end tags. This project explores the impact of HTML structure in semi-structured resumes for prediction in bi-directional LSTM RNNs using TFIDF logistic regression as baselines.
 
 ## 2 Project Overview
-### 2.1 Background
-Previous work successfully leveraged HTML markup structure in web documents with deep neural networks to successfully parse and extract information [6][7]. Other work extracted structure and clustered text as a means to narrow the search space and produce more accurate results [4][5]. Hence, we know it's possible that using structure in deep neural networks for parsing and extraction can be beneficial. 
 
-< some other background on problem approach>
+### 2.1 Background
+
+Previous work successfully leveraged HTML markup structure in web documents with deep neural networks to successfully parse and extract information [4][5]. Other work extracted structure and clustered text as a means to narrow the search space and produce more accurate results [6][7]. Meanwhile, there's a growing multitude of online content served over dynamic pages: fixed style and structure, dynamic content. Many such content present opportunities for data-mining and NLP based machine learning, but it's unclear how much the HTML markup on these pages could help current neural models improve upon plain text classification or prediction.
+
+This project aims to deep dive and explore the impact of consistently decorated HTML for classification and prediction on a domain specific dataset of resumes. 
 
 ### 2.2 Datasets Utilized
-We used pre-scraped dump of 8 million unique English resumes from Indeed from 2017 (https://resumes.indeed.com/). The resumes are in HTML with consistent classes and ids for corresponding sections of the resume. For example, individual work experiences are consistently classed 'work-experience-section' which nests under a work experience section, with id 'work-experience-items'. 
+We used a scraped dump of 8 million unique English resumes from Indeed from 2017 (https://resumes.indeed.com/). The resumes are in HTML with consistent classes and ids for corresponding sections of the resume. For example, individual work experiences are classed 'work-experience-section' which nests under a work experience section, with id 'work-experience-items'. 
 
-We also used word2vec slim (https://github.com/eyaler/word2vec-slim) as pretrained embeddings, with a vocabulary size of 300k trained from Google News. Because the vocabulary of resumes is dominated contain common English terms, and that pretrained embeddings can boost performance on the relatively small sampled data sets we used to run models [9]. < why word2vec? >
-
+We also used word2vec slim (https://github.com/eyaler/word2vec-slim) as pretrained embeddings, with a vocabulary size of 300k trained from Google News. Because the vocabulary of resumes is dominated by common English terms, pretrained embeddings can boost performance on the relatively small sampled data sets we utilized to create models [9].
 
 ### 2.3 Problem Approach
 
-- insert line on why these predictions were chosen
+The predictors we chose are proxies for high-level information and predictions that recruiters or hiring managers find salient in candidate consideration. These include, whether the candidate has enough work experience, how likely they are to stay in the current job and whether they are looking to switch fields. 
 
-This project focused on benchmarking accuracies from three types of classifications and predictions from the dataset:
+We focused on benchmarking accuracies from these three types of predictions:
 
 1. Has 10+ years of work experience
 2. Stayed at current job next year
 3. Switched careers from their last job
 
-Our methodology was to start with an exploratory analysis, ensuring that for unbalanced predictions, we choose the metrics that would accurately gauge performance. The breakdown for types for each prediction < insert graph >
+Our methodology was to start with an exploratory analysis, ensuring that for unbalanced predictions, we choose the metrics that would accurately gauge performance. In addition, the high salience terms in baseline logistic regression models helped us understand what features are important to each predictor in the dataset. 
 
-We sampled our dataset for training sets of roughly 30,000 to 40,000, validating on 10,000 resumes with random resampling. The development set was a separate batch of 50,000 resumes. Originally, we aimed for an order of magnitude larger for training, but hit time and resource limitations when training 50 variants of LSTM networks for our predictor variables.
+We sampled our dataset for training sets of roughly 30,000 to 40,000, validating on 10,000 resumes with random resampling. The development set was a separate batch of 50,000 resumes. Originally, we aimed for an order of magnitude larger for training sets, but ran into time and resource limitations when training 50 variants of LSTM networks for each predictor variable.
 
-As baselines, we ran both TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common and fast baseline models for text classification [10].  
+As baselines, we ran both TFIDF Multinomial naive Bayes and TFIDF logistic regression, which are common and fast baseline models for text classification [10].  
 
-Variants of Bi-Directional LSTM RNN was chosen as the main model of comparison against baselines. Due to the nature of HTML contain open and end tags to represent a section, we hypothesized that bi-directional will allow us to capture backward and future context for a HTML structured representation. We chose a LSTM RNN because we wanted to capture long range dependencies in the resume, potentially extrapolating conclusions from different sections of the resume.  
+Variants of bi-directional LSTM RNN was chosen as the main model of comparison against baselines. Due HTML's grammar of enclosing tags to represent a section, we hypothesized that bi-directional will allow us to capture backward and future context for a HTML sections. LSTM was selected because we wanted to capture long range dependencies, potentially extrapolating conclusions from different sections of the resume.  
 
-Because LSTM RNNs can suffer from over training on a smaller dataset, we also ran multiple variations of parameter inputs, namely the number of epochs and sequence length. 
+Because LSTM RNNs can suffer from over training on a smaller dataset, we re-ran the same models across multiple randomly sampled training sets for consistency of results. We also created multiple model variations by tuning input parameters, namely the number of epochs and sequence length. 
 
 ### 2.4 Parsing Tools and Data Preparation 
 
 Our data set was parsed by BeautifulSoup (https://pypi.org/project/beautifulsoup4/) which helped us standardize and clean HTML as well as extract raw text.
 
-For each resume, we verified that the expected sections exist: education, work experience and has had at least 2 jobs. We also validate that the expected values are complete: years of employment and full job titles for past jobs. Resumes that were incomplete were not included in the dataset.
+For each resume, we verified that the expected sections exist: education, work experience and has had at least 2 jobs. We also validate that the expected values are complete: years of employment and full job titles for past jobs. Resumes that were incomplete were excluded.
 
-For each of the predictions, we systematically extracted the predictor variable and stripped the resume of information when applicable. Some of these predictors could have a more nuanced interpretation of actual True or False, but we defaulted to simplified proxies for those cases as described below:
+For each of the predictions, we systematically extracted the predictor variable and stripped the resume of that information when applicable. Some of these predictors could have a more nuanced interpretation of actual True or False, but we defaulted to simplified proxies as described below:
 
-1. Has 10+ years of work experience: We did not alter the resume as the training set. The difference between earliest date of their employment history compared to 2017 was the boolean predictor of whether they had at least 10 years of experience.
-2. Stayed at current job at year +1: We removed the end date from the current or last position of the job and cleaned the HTML of any potential references to current position. If the end date was 'to present', we assigned that predictor as True.
-3. Switched careers from their last job: We removed the job title from the current or last position of the job. If the extracted position is similar by counting the number of matching tokens compared to their previous position, we assigned that predictor as True. 
+1. Has 10+ years of work experience: Resumes were not altered. Boolean predictor was whether the difference between earliest date of their employment history compared to 2017 was greater than or equal to 10.
+2. Stayed at current job at year +1: End dates from the current or last position were removed and potential embedded references to current position were also removed. Boolean predictor is True if the end date was 'to present'.
+3. Switched careers from their last job: Current or last job title were extracted and removed. Boolean predictor is True if extracted position is similar by counting the number of matching tokens compared to their previous position. 
 
-For each of the three predictor variables above, we created two training sets, one with validated HTML as part of the resume, and one which we stripped the HTML but kept the spacing and line breaks. 
-
-< maybe add more here >
+For each of the three predictor variables, we created two training sets, one with validated HTML and one which stripped the HTML but kept the spacing and line breaks. 
 
 ### 2.5 Word2Vec Embeddings
 
-Pretrained embeddings such as GloVe, FastText and Word2Vec encode latent relationships between words which can be utilized as part of machine learning model. We could have trained a version of Word2Vec on the more specific vocabulary of resumes to encode stronger relationships more specific to this corpus, but this would be a more tangential exploration to our project. 
+Pretrained embeddings such as GloVe, FastText and Word2Vec encode latent relationships between words which can be utilized as part of machine learning model. Training a custom version of Word2Vec on the more resume-specific vocabulary could encode stronger relationships specific to this corpus, but this is a tangential exploration to our project for future exploration.
 
-Because our sampled training dataset was relatively small, we incorporated the pretrained Word2Vec slim embeddings (300k) to our LSTM models to boost training performance and semantic relationships. The same embeddings were used across all LSTM models. Embeddings were not updated during training.
+Because our sampled training dataset was relatively small, we incorporated the pretrained Word2Vec slim embeddings (300k) to our LSTM models to boost training performance. The same embeddings were used across all LSTM models. Embeddings were not updated during training.
 
 ### 2.5 Data Limitations
 
-- original predict classes of job titles
-- small training set, could have scaled up with more resumes trained
-- better data preparation
+Our project could have been improved by two major factors:
+
+1. leveraging a substantially larger training set and running in parallel over cloud hosted dedicated RAM/GPU resources
+2. leveraging domain specific vocabularies, pre-populating relationships such as from ONET or our own Word2Vec model
+3. better and more types of predictors and classifiers, e.g. classification of industry, and running similarity metrics for similar job titles rather than matching tokens
 
 ### 2.6 Metrics
 
-- minimal class skew
-- confusion matrix shows fairly even precision and recall 
-- no need to differentiate false positives / false negatives -> straight up accuracy
-
-- f1, loss, accuracy
-
+From our exploratory analysis, we have minimal class skew for all our predictors and there's no classifiable subsantial difference between false positives or false negative error types. We while tracked f1, loss and absolute accuracy, we opted for absolute accuracy across the test set as the main criteria for model performance. We did investigate a bit into how f1-accuracy differs from HTML and plain text training sets. 
 
 ## 3 Model
 ### 3.1 Baseline Models
@@ -134,7 +125,7 @@ Although the same parameter values were ran for both plain text and HTML models,
 
 ### 4.2 Analysis against Baselines
 
-In general, Bi-Directional LSTM did well compared to the baseline models, with an average increase of 7% accuracy over TFIDF logistic regression across three predictor variables. LSTM was the worst at predicting career switch as it underperformed baselines by a smidgen, accuracy decreased by 0.3% for both plain text and HTML. LSTM saw the best gains in predicting stay at job, accuracy increasing 23% over the baseline. 
+In general, bi-directional LSTM did well compared to the baseline models, with an average increase of 7% accuracy over TFIDF logistic regression across three predictor variables. LSTM was the worst at predicting career switch as it underperformed baselines by a smidgen, accuracy decreased by 0.3% for both plain text and HTML. LSTM saw the best gains in predicting stay at job, accuracy increasing 23% over the baseline. 
 
 Comparing results between plain text and HTML models, Naive Bayes performed worst in general and worse for HTML models. However, other models generally had comparable performance between the two types of data input (accuracies differed less than 0.5%) the only exception of predicting stay at job. Particularly notable is that HTML data worked the same or better for LSTM models across all three predictors.
 
@@ -162,7 +153,7 @@ LSTMs had the most success for HTML resumes on predicting whether someone stayed
 
 ## 5 Conclusion
 
-We demonstrated the viability of using structured HTML in Bi-Directional LSTM RNN models a resume corpus for prediction and classification. Model features included pretrained Word2Vec embeddings and features generated by the RNN. While LSTM was either on par or significantly better than baseline logistic regression models, using HTML in the neural models also demonstrated performance on par or better than plain text. 
+We demonstrated the viability of using structured HTML in bi-directional LSTM RNN models a resume corpus for prediction and classification. Model features included pretrained Word2Vec embeddings and features generated by the RNN. While LSTM was either on par or significantly better than baseline logistic regression models, using HTML in the neural models also demonstrated performance on par or better than plain text. 
 
 Despite the positive results, utilizing larger training sets, creating a custom trained set of embeddings from the resume corpus, and further tuning of LSTM input parameters would likely improve performance for each of the predictor variables we tested. 
 
@@ -177,17 +168,17 @@ https://www.aclweb.org/anthology/D17-1160
 [3] G. Qin, J.G. Yao, Learning Latent Semantic Annotations for Grounding Natural Language to Structured Data
 http://aclweb.org/anthology/D18-1411
 
-[4] E. Angelino, Extracting Structure from human-readable Semistructured Text
-https://people.eecs.berkeley.edu/~elaine/pubs/angelino-structure.pdf
-
-[5] A. Hotho, S. Staab, G. Stumme, Text Clustering Based on Background Knowledge
-https://pdfs.semanticscholar.org/56d0/7518b3a83229656a993adf0dd64ba26da3a6.pdf
-
-[6] T. Gogar, O. Hubacek, J. Sedivy, Deep Neural Networks for Web Page Information Extraction
+[4] T. Gogar, O. Hubacek, J. Sedivy, Deep Neural Networks for Web Page Information Extraction
 https://hal.inria.fr/hal-01557648/document
 
-[7] A. García-Plaza, V. Fresno, Using Fuzzy Logic to Leverage HTML Markup for Web Page Representation
+[5] A. García-Plaza, V. Fresno, Using Fuzzy Logic to Leverage HTML Markup for Web Page Representation
 https://ieeexplore.ieee.org/abstract/document/7505655
+
+[6] E. Angelino, Extracting Structure from human-readable Semistructured Text
+https://people.eecs.berkeley.edu/~elaine/pubs/angelino-structure.pdf
+
+[7] A. Hotho, S. Staab, G. Stumme, Text Clustering Based on Background Knowledge
+https://pdfs.semanticscholar.org/56d0/7518b3a83229656a993adf0dd64ba26da3a6.pdf
 
 [8] Wikipedia: Semi-structured data
 https://en.m.wikipedia.org/wiki/Semi-structured_data
