@@ -1,0 +1,2072 @@
+{
+    "cpr":
+    {
+        "approved": "yes",
+        "cv_count": 20910,
+        "function2": "indeed",
+        "skill": "CPR",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "aed":
+    {
+        "approved": "yes",
+        "cv_count": 10420,
+        "function2": "indeed",
+        "skill": "AED",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cna":
+    {
+        "approved": "yes",
+        "cv_count": 8890,
+        "function2": "indeed",
+        "skill": "CNA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "first aid":
+    {
+        "approved": "yes",
+        "cv_count": 8870,
+        "function2": "indeed",
+        "skill": "First Aid",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "forklift certified":
+    {
+        "approved": "yes",
+        "cv_count": 6730,
+        "function2": "indeed",
+        "skill": "Forklift Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "driver's license":
+    {
+        "approved": "yes",
+        "cv_count": 5340,
+        "function2": "indeed",
+        "skill": "Driver's License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "bls for healthcare providers":
+    {
+        "approved": "yes",
+        "cv_count": 4320,
+        "function2": "indeed",
+        "skill": "BLS for Healthcare Providers",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "servsafe":
+    {
+        "approved": "yes",
+        "cv_count": 4220,
+        "function2": "indeed",
+        "skill": "ServSafe",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food handler":
+    {
+        "approved": "yes",
+        "cv_count": 4130,
+        "function2": "indeed",
+        "skill": "Food Handler",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "bls":
+    {
+        "approved": "yes",
+        "cv_count": 3900,
+        "function2": "indeed",
+        "skill": "BLS",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "medical assistant":
+    {
+        "approved": "yes",
+        "cv_count": 3610,
+        "function2": "indeed",
+        "skill": "Medical Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified nursing assistant":
+    {
+        "approved": "yes",
+        "cv_count": 3580,
+        "function2": "indeed",
+        "skill": "Certified Nursing Assistant",
+        "skill_abbreviation": "CNA",
+        "skill_type": "certification"
+    },
+    "notary public":
+    {
+        "approved": "yes",
+        "cv_count": 3440,
+        "function2": "indeed",
+        "skill": "Notary Public",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "osha 10":
+    {
+        "approved": "yes",
+        "cv_count": 3400,
+        "function2": "indeed",
+        "skill": "OSHA 10",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food handlers card":
+    {
+        "approved": "yes",
+        "cv_count": 3150,
+        "function2": "indeed",
+        "skill": "Food Handlers Card",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cdl class a":
+    {
+        "approved": "yes",
+        "cv_count": 3080,
+        "function2": "indeed",
+        "skill": "CDL Class A",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "class a cdl":
+    {
+        "approved": "yes",
+        "cv_count": 3050,
+        "function2": "indeed",
+        "skill": "Class A CDL",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "acls":
+    {
+        "approved": "yes",
+        "cv_count": 3030,
+        "function2": "indeed",
+        "skill": "ACLS",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "comptia a+":
+    {
+        "approved": "yes",
+        "cv_count": 2930,
+        "function2": "indeed",
+        "skill": "CompTIA A+",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "forklift operator":
+    {
+        "approved": "yes",
+        "cv_count": 2320,
+        "function2": "indeed",
+        "skill": "Forklift Operator",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "phlebotomy":
+    {
+        "approved": "yes",
+        "cv_count": 2000,
+        "function2": "indeed",
+        "skill": "Phlebotomy",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "registered nurse":
+    {
+        "approved": "yes",
+        "cv_count": 1680,
+        "function2": "indeed",
+        "skill": "Registered Nurse",
+        "skill_abbreviation": "RN",
+        "skill_type": "certification"
+    },
+    "pals":
+    {
+        "approved": "yes",
+        "cv_count": 1680,
+        "function2": "indeed",
+        "skill": "PALS",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "pharmacy technician":
+    {
+        "approved": "yes",
+        "cv_count": 1540,
+        "function2": "indeed",
+        "skill": "Pharmacy Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "real estate license":
+    {
+        "approved": "yes",
+        "cv_count": 1520,
+        "function2": "indeed",
+        "skill": "Real Estate License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "forklift certification":
+    {
+        "approved": "yes",
+        "cv_count": 1420,
+        "function2": "indeed",
+        "skill": "Forklift certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "microsoft office specialist":
+    {
+        "approved": "yes",
+        "cv_count": 1310,
+        "function2": "indeed",
+        "skill": "Microsoft Office Specialist",
+        "skill_abbreviation": "MOS",
+        "skill_type": "certification"
+    },
+    "emt-b":
+    {
+        "approved": "yes",
+        "cv_count": 1280,
+        "function2": "indeed",
+        "skill": "EMT-B",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lpn":
+    {
+        "approved": "yes",
+        "cv_count": 1260,
+        "function2": "indeed",
+        "skill": "LPN",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "basic life support":
+    {
+        "approved": "yes",
+        "cv_count": 1260,
+        "function2": "indeed",
+        "skill": "Basic Life Support",
+        "skill_abbreviation": "BLS",
+        "skill_type": "certification"
+    },
+    "osha":
+    {
+        "approved": "yes",
+        "cv_count": 1260,
+        "function2": "indeed",
+        "skill": "OSHA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cpa":
+    {
+        "approved": "yes",
+        "cv_count": 1240,
+        "function2": "indeed",
+        "skill": "CPA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "osha 30":
+    {
+        "approved": "yes",
+        "cv_count": 1230,
+        "function2": "indeed",
+        "skill": "OSHA 30",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cosmetology":
+    {
+        "approved": "yes",
+        "cv_count": 1150,
+        "function2": "indeed",
+        "skill": "Cosmetology",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "comptia network+":
+    {
+        "approved": "yes",
+        "cv_count": 1120,
+        "function2": "indeed",
+        "skill": "CompTIA Network+",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "licensed practical nurse":
+    {
+        "approved": "yes",
+        "cv_count": 1120,
+        "function2": "indeed",
+        "skill": "Licensed Practical Nurse",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cosmetology license":
+    {
+        "approved": "yes",
+        "cv_count": 1030,
+        "function2": "indeed",
+        "skill": "Cosmetology License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "microsoft certified professional":
+    {
+        "approved": "yes",
+        "cv_count": 1020,
+        "function2": "indeed",
+        "skill": "Microsoft Certified Professional",
+        "skill_abbreviation": "MCP",
+        "skill_type": "certification"
+    },
+    "tabc":
+    {
+        "approved": "yes",
+        "cv_count": 1010,
+        "function2": "indeed",
+        "skill": "TABC",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "project management professional":
+    {
+        "approved": "yes",
+        "cv_count": 1000,
+        "function2": "indeed",
+        "skill": "Project Management Professional",
+        "skill_abbreviation": "PMP",
+        "skill_type": "certification"
+    },
+    "teaching certificate":
+    {
+        "approved": "yes",
+        "cv_count": 990,
+        "function2": "indeed",
+        "skill": "Teaching Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "comptia security+":
+    {
+        "approved": "yes",
+        "cv_count": 960,
+        "function2": "indeed",
+        "skill": "CompTIA Security+",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cdl class b":
+    {
+        "approved": "yes",
+        "cv_count": 950,
+        "function2": "indeed",
+        "skill": "CDL Class B",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "insurance license":
+    {
+        "approved": "yes",
+        "cv_count": 950,
+        "function2": "indeed",
+        "skill": "Insurance License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "forklift":
+    {
+        "approved": "yes",
+        "cv_count": 880,
+        "function2": "indeed",
+        "skill": "Forklift",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "home health aide":
+    {
+        "approved": "yes",
+        "cv_count": 870,
+        "function2": "indeed",
+        "skill": "Home Health Aide",
+        "skill_abbreviation": "HHA",
+        "skill_type": "certification"
+    },
+    "twic":
+    {
+        "approved": "yes",
+        "cv_count": 850,
+        "function2": "indeed",
+        "skill": "TWIC",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food safety manager":
+    {
+        "approved": "yes",
+        "cv_count": 850,
+        "function2": "indeed",
+        "skill": "Food Safety Manager",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hipaa":
+    {
+        "approved": "yes",
+        "cv_count": 830,
+        "function2": "indeed",
+        "skill": "HIPAA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "property and casualty license":
+    {
+        "approved": "yes",
+        "cv_count": 830,
+        "function2": "indeed",
+        "skill": "Property and Casualty License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "microsoft word":
+    {
+        "approved": "yes",
+        "cv_count": 810,
+        "function2": "indeed",
+        "skill": "Microsoft Word",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "six sigma green belt":
+    {
+        "approved": "yes",
+        "cv_count": 800,
+        "function2": "indeed",
+        "skill": "Six Sigma Green Belt",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "emergency medical technician":
+    {
+        "approved": "yes",
+        "cv_count": 790,
+        "function2": "indeed",
+        "skill": "Emergency Medical Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cosmetologist":
+    {
+        "approved": "yes",
+        "cv_count": 780,
+        "function2": "indeed",
+        "skill": "Cosmetologist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "medication administration":
+    {
+        "approved": "yes",
+        "cv_count": 770,
+        "function2": "indeed",
+        "skill": "Medication Administration",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "pmp":
+    {
+        "approved": "yes",
+        "cv_count": 760,
+        "function2": "indeed",
+        "skill": "PMP",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cma":
+    {
+        "approved": "yes",
+        "cv_count": 760,
+        "function2": "indeed",
+        "skill": "CMA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "dental assistant":
+    {
+        "approved": "yes",
+        "cv_count": 730,
+        "function2": "indeed",
+        "skill": "Dental Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "nursing assistant":
+    {
+        "approved": "yes",
+        "cv_count": 730,
+        "function2": "indeed",
+        "skill": "Nursing Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cpi":
+    {
+        "approved": "yes",
+        "cv_count": 710,
+        "function2": "indeed",
+        "skill": "CPI",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "security+":
+    {
+        "approved": "yes",
+        "cv_count": 710,
+        "function2": "indeed",
+        "skill": "Security+",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "guard card":
+    {
+        "approved": "yes",
+        "cv_count": 710,
+        "function2": "indeed",
+        "skill": "Guard Card",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "medical billing and coding":
+    {
+        "approved": "yes",
+        "cv_count": 710,
+        "function2": "indeed",
+        "skill": "Medical Billing and Coding",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "twic card":
+    {
+        "approved": "yes",
+        "cv_count": 700,
+        "function2": "indeed",
+        "skill": "TWIC Card",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "welding":
+    {
+        "approved": "yes",
+        "cv_count": 670,
+        "function2": "indeed",
+        "skill": "Welding",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cpc":
+    {
+        "approved": "yes",
+        "cv_count": 670,
+        "function2": "indeed",
+        "skill": "CPC",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "a+ certified":
+    {
+        "approved": "yes",
+        "cv_count": 670,
+        "function2": "indeed",
+        "skill": "A+ Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "security officer":
+    {
+        "approved": "yes",
+        "cv_count": 650,
+        "function2": "indeed",
+        "skill": "Security Officer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lvn":
+    {
+        "approved": "yes",
+        "cv_count": 650,
+        "function2": "indeed",
+        "skill": "LVN",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "class b cdl":
+    {
+        "approved": "yes",
+        "cv_count": 650,
+        "function2": "indeed",
+        "skill": "Class B CDL",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "esthetician":
+    {
+        "approved": "yes",
+        "cv_count": 640,
+        "function2": "indeed",
+        "skill": "Esthetician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "tips certified":
+    {
+        "approved": "yes",
+        "cv_count": 630,
+        "function2": "indeed",
+        "skill": "TIPS Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "advanced cardiovascular life support":
+    {
+        "approved": "yes",
+        "cv_count": 630,
+        "function2": "indeed",
+        "skill": "Advanced Cardiovascular Life Support",
+        "skill_abbreviation": "ACLS",
+        "skill_type": "certification"
+    },
+    "life and health insurance":
+    {
+        "approved": "yes",
+        "cv_count": 610,
+        "function2": "indeed",
+        "skill": "Life and Health Insurance",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "nrp":
+    {
+        "approved": "yes",
+        "cv_count": 600,
+        "function2": "indeed",
+        "skill": "NRP",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "rma":
+    {
+        "approved": "yes",
+        "cv_count": 590,
+        "function2": "indeed",
+        "skill": "RMA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hvac":
+    {
+        "approved": "yes",
+        "cv_count": 580,
+        "function2": "indeed",
+        "skill": "HVAC",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "ccna":
+    {
+        "approved": "yes",
+        "cv_count": 570,
+        "function2": "indeed",
+        "skill": "CCNA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "fire safety":
+    {
+        "approved": "yes",
+        "cv_count": 550,
+        "function2": "indeed",
+        "skill": "Fire Safety",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "stna":
+    {
+        "approved": "yes",
+        "cv_count": 550,
+        "function2": "indeed",
+        "skill": "STNA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "nccer":
+    {
+        "approved": "yes",
+        "cv_count": 550,
+        "function2": "indeed",
+        "skill": "NCCER",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "microsoft excel":
+    {
+        "approved": "yes",
+        "cv_count": 540,
+        "function2": "indeed",
+        "skill": "Microsoft Excel",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 7":
+    {
+        "approved": "yes",
+        "cv_count": 530,
+        "function2": "indeed",
+        "skill": "Series 7",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "epa universal":
+    {
+        "approved": "yes",
+        "cv_count": 530,
+        "function2": "indeed",
+        "skill": "EPA Universal",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "dot medical card":
+    {
+        "approved": "yes",
+        "cv_count": 520,
+        "function2": "indeed",
+        "skill": "DOT Medical Card",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "phr":
+    {
+        "approved": "yes",
+        "cv_count": 520,
+        "function2": "indeed",
+        "skill": "PHR",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lifeguarding":
+    {
+        "approved": "yes",
+        "cv_count": 520,
+        "function2": "indeed",
+        "skill": "Lifeguarding",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "epa universal certification":
+    {
+        "approved": "yes",
+        "cv_count": 520,
+        "function2": "indeed",
+        "skill": "EPA Universal Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hazmat":
+    {
+        "approved": "yes",
+        "cv_count": 510,
+        "function2": "indeed",
+        "skill": "Hazmat",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cda":
+    {
+        "approved": "yes",
+        "cv_count": 510,
+        "function2": "indeed",
+        "skill": "CDA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "security guard":
+    {
+        "approved": "yes",
+        "cv_count": 500,
+        "function2": "indeed",
+        "skill": "Security Guard",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "ase":
+    {
+        "approved": "yes",
+        "cv_count": 490,
+        "function2": "indeed",
+        "skill": "ASE",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "tncc":
+    {
+        "approved": "yes",
+        "cv_count": 490,
+        "function2": "indeed",
+        "skill": "TNCC",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 63":
+    {
+        "approved": "yes",
+        "cv_count": 480,
+        "function2": "indeed",
+        "skill": "Series 63",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cdl":
+    {
+        "approved": "yes",
+        "cv_count": 480,
+        "function2": "indeed",
+        "skill": "CDL",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lean six sigma green belt":
+    {
+        "approved": "yes",
+        "cv_count": 480,
+        "function2": "indeed",
+        "skill": "Lean Six Sigma Green Belt",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cpht":
+    {
+        "approved": "yes",
+        "cv_count": 480,
+        "function2": "indeed",
+        "skill": "CPhT",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "national career readiness certificate":
+    {
+        "approved": "yes",
+        "cv_count": 480,
+        "function2": "indeed",
+        "skill": "National Career Readiness Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food handlers certificate":
+    {
+        "approved": "yes",
+        "cv_count": 470,
+        "function2": "indeed",
+        "skill": "Food Handlers Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food safety":
+    {
+        "approved": "yes",
+        "cv_count": 470,
+        "function2": "indeed",
+        "skill": "Food Safety",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hha":
+    {
+        "approved": "yes",
+        "cv_count": 470,
+        "function2": "indeed",
+        "skill": "HHA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "itil v3 foundation":
+    {
+        "approved": "yes",
+        "cv_count": 470,
+        "function2": "indeed",
+        "skill": "ITIL v3 Foundation",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "massage therapist":
+    {
+        "approved": "yes",
+        "cv_count": 460,
+        "function2": "indeed",
+        "skill": "Massage Therapist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "personal trainer":
+    {
+        "approved": "yes",
+        "cv_count": 450,
+        "function2": "indeed",
+        "skill": "Personal Trainer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "shrm-cp":
+    {
+        "approved": "yes",
+        "cv_count": 450,
+        "function2": "indeed",
+        "skill": "SHRM-CP",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "medical terminology":
+    {
+        "approved": "yes",
+        "cv_count": 450,
+        "function2": "indeed",
+        "skill": "Medical Terminology",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food handlers":
+    {
+        "approved": "yes",
+        "cv_count": 440,
+        "function2": "indeed",
+        "skill": "Food Handlers",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "pca":
+    {
+        "approved": "yes",
+        "cv_count": 440,
+        "function2": "indeed",
+        "skill": "PCA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "emt":
+    {
+        "approved": "yes",
+        "cv_count": 440,
+        "function2": "indeed",
+        "skill": "EMT",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food manager certification":
+    {
+        "approved": "yes",
+        "cv_count": 440,
+        "function2": "indeed",
+        "skill": "Food Manager Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "bloodborne pathogens":
+    {
+        "approved": "yes",
+        "cv_count": 440,
+        "function2": "indeed",
+        "skill": "Bloodborne Pathogens",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "early childhood education":
+    {
+        "approved": "yes",
+        "cv_count": 430,
+        "function2": "indeed",
+        "skill": "Early Childhood Education",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "arrt":
+    {
+        "approved": "yes",
+        "cv_count": 430,
+        "function2": "indeed",
+        "skill": "ARRT",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "culinary arts":
+    {
+        "approved": "yes",
+        "cv_count": 410,
+        "function2": "indeed",
+        "skill": "Culinary Arts",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "eit":
+    {
+        "approved": "yes",
+        "cv_count": 400,
+        "function2": "indeed",
+        "skill": "EIT",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "nmls":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "NMLS",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "flagger":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "Flagger",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "iv certification":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "IV Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hazwoper":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "HAZWOPER",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cpt":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "CPT",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "high school diploma":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "High School Diploma",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "professional engineer":
+    {
+        "approved": "yes",
+        "cv_count": 390,
+        "function2": "indeed",
+        "skill": "Professional Engineer",
+        "skill_abbreviation": "PE",
+        "skill_type": "certification"
+    },
+    "administrative assistant":
+    {
+        "approved": "yes",
+        "cv_count": 380,
+        "function2": "indeed",
+        "skill": "Administrative Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "sphr":
+    {
+        "approved": "yes",
+        "cv_count": 370,
+        "function2": "indeed",
+        "skill": "SPHR",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "work keys":
+    {
+        "approved": "yes",
+        "cv_count": 370,
+        "function2": "indeed",
+        "skill": "Work Keys",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "mcse":
+    {
+        "approved": "yes",
+        "cv_count": 370,
+        "function2": "indeed",
+        "skill": "MCSE",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "realtor":
+    {
+        "approved": "yes",
+        "cv_count": 370,
+        "function2": "indeed",
+        "skill": "Realtor",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lcsw":
+    {
+        "approved": "yes",
+        "cv_count": 360,
+        "function2": "indeed",
+        "skill": "LCSW",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "mcp":
+    {
+        "approved": "yes",
+        "cv_count": 360,
+        "function2": "indeed",
+        "skill": "MCP",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "phlebotomist":
+    {
+        "approved": "yes",
+        "cv_count": 360,
+        "function2": "indeed",
+        "skill": "Phlebotomist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certificate of completion":
+    {
+        "approved": "yes",
+        "cv_count": 360,
+        "function2": "indeed",
+        "skill": "Certificate of Completion",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "paramedic":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "Paramedic",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "paralegal":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "Paralegal",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified personal trainer":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "Certified Personal Trainer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "ekg technician":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "EKG Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "ccma":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "CCMA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "network+":
+    {
+        "approved": "yes",
+        "cv_count": 350,
+        "function2": "indeed",
+        "skill": "Network+",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified phlebotomist":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "Certified Phlebotomist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "scrum master":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "Scrum Master",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "rn license":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "RN License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "msha":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "MSHA",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "itil v3":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "ITIL v3",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 6":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "Series 6",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "med tech":
+    {
+        "approved": "yes",
+        "cv_count": 340,
+        "function2": "indeed",
+        "skill": "Med Tech",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "licensed vocational nurse":
+    {
+        "approved": "yes",
+        "cv_count": 330,
+        "function2": "indeed",
+        "skill": "Licensed Vocational Nurse",
+        "skill_abbreviation": "LVN",
+        "skill_type": "certification"
+    },
+    "heavy equipment operator":
+    {
+        "approved": "yes",
+        "cv_count": 330,
+        "function2": "indeed",
+        "skill": "Heavy Equipment Operator",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cissp":
+    {
+        "approved": "yes",
+        "cv_count": 320,
+        "function2": "indeed",
+        "skill": "CISSP",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "food handlers permit":
+    {
+        "approved": "yes",
+        "cv_count": 320,
+        "function2": "indeed",
+        "skill": "Food Handlers Permit",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "engineer in training":
+    {
+        "approved": "yes",
+        "cv_count": 320,
+        "function2": "indeed",
+        "skill": "Engineer In Training",
+        "skill_abbreviation": "EIT",
+        "skill_type": "certification"
+    },
+    "series 66":
+    {
+        "approved": "yes",
+        "cv_count": 320,
+        "function2": "indeed",
+        "skill": "Series 66",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "lean six sigma yellow belt":
+    {
+        "approved": "yes",
+        "cv_count": 310,
+        "function2": "indeed",
+        "skill": "Lean Six Sigma Yellow Belt",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "substitute teacher":
+    {
+        "approved": "yes",
+        "cv_count": 310,
+        "function2": "indeed",
+        "skill": "Substitute Teacher",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "medication aide":
+    {
+        "approved": "yes",
+        "cv_count": 310,
+        "function2": "indeed",
+        "skill": "Medication Aide",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "nurse's license":
+    {
+        "approved": "yes",
+        "cv_count": 310,
+        "function2": "indeed",
+        "skill": "Nurse's License",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "epa 608 universal":
+    {
+        "approved": "yes",
+        "cv_count": 310,
+        "function2": "indeed",
+        "skill": "EPA 608 Universal",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "paralegal certificate":
+    {
+        "approved": "yes",
+        "cv_count": 290,
+        "function2": "indeed",
+        "skill": "Paralegal Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "serve safe certified":
+    {
+        "approved": "yes",
+        "cv_count": 280,
+        "function2": "indeed",
+        "skill": "Serve Safe Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cisco certified network associate":
+    {
+        "approved": "yes",
+        "cv_count": 250,
+        "function2": "indeed",
+        "skill": "Cisco Certified Network Associate",
+        "skill_abbreviation": "CCNA",
+        "skill_type": "certification"
+    },
+    "certified surgical technologist":
+    {
+        "approved": "yes",
+        "cv_count": 230,
+        "function2": "indeed",
+        "skill": "Certified Surgical Technologist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified public accountant":
+    {
+        "approved": "yes",
+        "cv_count": 230,
+        "function2": "indeed",
+        "skill": "Certified Public Accountant",
+        "skill_abbreviation": "CPA",
+        "skill_type": "certification"
+    },
+    "certified nurse assistant":
+    {
+        "approved": "yes",
+        "cv_count": 200,
+        "function2": "indeed",
+        "skill": "Certified Nurse Assistant",
+        "skill_abbreviation": "CNA",
+        "skill_type": "certification"
+    },
+    "iv certified":
+    {
+        "approved": "yes",
+        "cv_count": 190,
+        "function2": "indeed",
+        "skill": "IV Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified scrummaster (csm)":
+    {
+        "approved": "yes",
+        "cv_count": 190,
+        "function2": "indeed",
+        "skill": "Certified ScrumMaster (CSM)",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "dot certification":
+    {
+        "approved": "yes",
+        "cv_count": 190,
+        "function2": "indeed",
+        "skill": "DOT Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "teaching certification":
+    {
+        "approved": "yes",
+        "cv_count": 170,
+        "function2": "indeed",
+        "skill": "Teaching Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "iv therapy certification":
+    {
+        "approved": "yes",
+        "cv_count": 170,
+        "function2": "indeed",
+        "skill": "IV Therapy Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certificate of achievement":
+    {
+        "approved": "yes",
+        "cv_count": 160,
+        "function2": "indeed",
+        "skill": "Certificate of Achievement",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "finra series 7":
+    {
+        "approved": "yes",
+        "cv_count": 160,
+        "function2": "indeed",
+        "skill": "FINRA Series 7",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "epa certification":
+    {
+        "approved": "yes",
+        "cv_count": 160,
+        "function2": "indeed",
+        "skill": "EPA Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certifications":
+    {
+        "approved": "yes",
+        "cv_count": 160,
+        "function2": "indeed",
+        "skill": "Certifications",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "typing certificate":
+    {
+        "approved": "yes",
+        "cv_count": 160,
+        "function2": "indeed",
+        "skill": "Typing Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 7":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "Series 7",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "immunization certification":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "Immunization Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "career readiness certificate":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "Career Readiness Certificate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "career readiness certification":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "Career Readiness Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "sas certified base programmer for sas 9":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "SAS Certified Base Programmer for SAS 9",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "fork lift certification":
+    {
+        "approved": "yes",
+        "cv_count": 150,
+        "function2": "indeed",
+        "skill": "Fork Lift Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "sun certified java programmer":
+    {
+        "approved": "yes",
+        "cv_count": 140,
+        "function2": "indeed",
+        "skill": "Sun Certified Java Programmer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "universal epa certification":
+    {
+        "approved": "yes",
+        "cv_count": 140,
+        "function2": "indeed",
+        "skill": "Universal EPA Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "tips certification":
+    {
+        "approved": "yes",
+        "cv_count": 130,
+        "function2": "indeed",
+        "skill": "TIPS Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "adobe certified associate":
+    {
+        "approved": "yes",
+        "cv_count": 130,
+        "function2": "indeed",
+        "skill": "Adobe Certified Associate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "google adwords certified":
+    {
+        "approved": "yes",
+        "cv_count": 130,
+        "function2": "indeed",
+        "skill": "Google Adwords Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "sas certified advanced programmer for sas 9":
+    {
+        "approved": "yes",
+        "cv_count": 120,
+        "function2": "indeed",
+        "skill": "SAS Certified Advanced Programmer for SAS 9",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "hippa certification":
+    {
+        "approved": "yes",
+        "cv_count": 120,
+        "function2": "indeed",
+        "skill": "HIPPA Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "salesforce.com certified administrator":
+    {
+        "approved": "yes",
+        "cv_count": 110,
+        "function2": "indeed",
+        "skill": "Salesforce.com Certified Administrator",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "microsoft certified":
+    {
+        "approved": "yes",
+        "cv_count": 110,
+        "function2": "indeed",
+        "skill": "Microsoft Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "six sigma green belt certification":
+    {
+        "approved": "yes",
+        "cv_count": 110,
+        "function2": "indeed",
+        "skill": "Six Sigma Green Belt Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified medication technician":
+    {
+        "approved": "yes",
+        "cv_count": 100,
+        "function2": "indeed",
+        "skill": "Certified Medication Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified occupational therapy assistant":
+    {
+        "approved": "yes",
+        "cv_count": 100,
+        "function2": "indeed",
+        "skill": "Certified Occupational Therapy Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified billing and coding specialist":
+    {
+        "approved": "yes",
+        "cv_count": 100,
+        "function2": "indeed",
+        "skill": "Certified Billing and Coding Specialist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified athletic trainer":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Certified Athletic Trainer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "oracle certified associate":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Oracle Certified Associate",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified safety professional":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Certified Safety Professional",
+        "skill_abbreviation": "CSP",
+        "skill_type": "certification"
+    },
+    "certified therapeutic recreation specialist":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Certified Therapeutic Recreation Specialist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "cisco certified entry networking technician":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Cisco Certified Entry Networking Technician",
+        "skill_abbreviation": "CCENT",
+        "skill_type": "certification"
+    },
+    "hippa certified":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "HIPPA Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified pool operator":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Certified Pool Operator",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "inbound marketing certification":
+    {
+        "approved": "yes",
+        "cv_count": 90,
+        "function2": "indeed",
+        "skill": "Inbound Marketing Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified respiratory therapist":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Respiratory Therapist",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified professional coder":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Professional Coder",
+        "skill_abbreviation": "CPC",
+        "skill_type": "certification"
+    },
+    "certified welder":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Welder",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified mediator":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Mediator",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified case manager":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Case Manager",
+        "skill_abbreviation": "CCM",
+        "skill_type": "certification"
+    },
+    "microsoft certified systems engineer":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Microsoft Certified Systems Engineer",
+        "skill_abbreviation": "MCSE",
+        "skill_type": "certification"
+    },
+    "certified nurses aide":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Nurses Aide",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 65":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Series 65",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified nurse aide":
+    {
+        "approved": "yes",
+        "cv_count": 80,
+        "function2": "indeed",
+        "skill": "Certified Nurse Aide",
+        "skill_abbreviation": "CNA",
+        "skill_type": "certification"
+    },
+    "certified veterinary technician":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Veterinary Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified professional food manager":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Professional Food Manager",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified patient care technician":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Patient Care Technician",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "project management certification":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Project Management Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified flight instructor":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Flight Instructor",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified ophthalmic assistant":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Ophthalmic Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "google certified":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Google Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "serv safe certified":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Serv Safe Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified nurses assistant":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Nurses Assistant",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified information systems security professional":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "Certified Information Systems Security Professional",
+        "skill_abbreviation": "CISSP",
+        "skill_type": "certification"
+    },
+    "asq certified quality auditor":
+    {
+        "approved": "yes",
+        "cv_count": 70,
+        "function2": "indeed",
+        "skill": "ASQ Certified Quality Auditor",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified associate in project management (capm)":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certified Associate in Project Management (CAPM)",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified health education specialist":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certified Health Education Specialist",
+        "skill_abbreviation": "CHES",
+        "skill_type": "certification"
+    },
+    "certified life coach":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certified Life Coach",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "ramp certified":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "RAMP Certified",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified bookkeeper":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certified Bookkeeper",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "oracle certified professional":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Oracle Certified Professional",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "java se 6 programmer":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Java SE 6 Programmer",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "serve safe certification":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Serve Safe Certification",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "series 24":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Series 24",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "shrm certified professional (shrm-cp)":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "SHRM Certified Professional (SHRM-CP)",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certified teacher":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certified Teacher",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    },
+    "certificate of appreciation":
+    {
+        "approved": "yes",
+        "cv_count": 60,
+        "function2": "indeed",
+        "skill": "Certificate of Appreciation",
+        "skill_abbreviation": "",
+        "skill_type": "certification"
+    }
+}
