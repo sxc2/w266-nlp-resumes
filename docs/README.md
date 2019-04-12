@@ -89,29 +89,27 @@ From our exploratory analysis, we have minimal class skew for all our predictors
 ## 3 Model
 ### 3.1 Baseline Models
 
-Given the training datasets we created, we built two baseline models using TFIDF Multinomial Naive Bayes and TFIDF Logistic Regression, which are common baseline models for text classification [10]. Naive Bayes was able to statistically identify high salience terms while Logistic Regression serves as a baseline and sanity test, as it is essentially a single neuron neural network with a linear decision boundary. TFIDF is chosen over absolute counts for vectorization as it more effectively categorizes relevant terms in a document [11]. 
+Given the training datasets we created, we built two baseline models using TFIDF Multinomial Naive Bayes and TFIDF logistic regression, which are common baseline models for text classification [10]. Naive Bayes was able to statistically identify high salience terms while logistic regression serves as a baseline and sanity test, as it is essentially a single neuron neural network with linear decision boundaries. TFIDF is chosen over absolute count vectorization as it more effectively categorizes relevant terms in a document [11]. 
 
-We created 4 baselines for each predictor, using Logistic Regression and Naive Bayes for both plain text resumes and HTML decorated resumes. Results are shown in figure <>.
+We created 4 baselines for each predictor: logistic regression and naive Bayes against plain text and HTML decorated resumes. 
 
 ### 3.2 Baseline Feature Engineering
 
-In addition to our baseline models, we also attempted rudimentary feature engineering on our dataset to incorporate into our baseline models. Some of the features included the length of the document, the average length of tokens, and number of unique tokens. Some of these features are shown to have correlation with the type of industry a resume is in and the length of experience. Although these features mainly applied to the plain text baseline, we ran across both plain text and HTML markup for completeness of results.
+In addition to our baseline models, we also attempted rudimentary feature engineering on our dataset to incorporate into our baseline models. Features include: length of the document, average length of tokens, and number of unique tokens. These resume features are shown to have correlation with industry type and length of experience. Although these features are mainly applicable to plain text, we added these features to both plain text and HTML resumes for results completeness.
 
-Logistic Regression models that included engineered features did not perform substantially better than vanilla baseline models. Results are shown in figure <>.
+Logistic regression models that included engineered features did not perform substantially better than vanilla baseline regression models.
 
-### 3.3 Bi-Directional LSTM
+### 3.3 Bi-Directional LSTM Setup
 
 The training objective of our model is cross-entropy loss using ADAM optimizer. A recurrent dropout layer was applied and the rate set to 0.1. We used pretrained Word2Vec slim to initialize token embeddings. Words not in the vocabulary were initialized by random normals with mean and standard deviation derived from the loaded embeddings. Batch size was set to 32 examples. The model is implemented using the deep learning framework Keras [12].
 
 ### 3.4 Tuning Bi-Directional LSTM
 
-We limited tuning of our main model to two parameters, number of epochs and sequence length. Due to the smaller training set size and avoid overfitting, we varied the number of epochs per predictor to retain the best fit model for the development set. We also tuned sequence length because the corpus of resumes tend to have different lengths of relevant context compared to a news article. Although 200 to 300 characters is standard for sentences, we tried 400 and 800 as an attempt to capture more state in any particular resume section and to address the padded length of HTML context around text.
-
-< insert figure for test accuracy over time >
+Tuning of our main model was limited to two parameters, number of epochs and sequence length. Due to the smaller training set size and to avoid overfitting, we varied the number of epochs per predictor to retain the best fit model for the development set. We also tuned sequence length because resume text sequences tend to have differing lengths of relevant context. Although 200 to 300 characters is standard for sentences in a news article, we utilized 400 and 800 as an attempt to capture more state in any particular resume section and to address the padded length of HTML context around text.
 
 ## 4 Results
 
-We focused on the absolute accuracy of the test dataset as the main metric since for all of our predictors, we have a fairly balanced dataset and differentiating between precision and recall is not as important. We did investigate f1-accuracy as a sub point below.
+We focused on the absolute accuracy of the test dataset as the primary metric due to a fairly balanced dataset and differentiating between precision and recall is not important. However, we investigated f1-accuracy as a sub-point below as it differs between HTML and plain text LSTM models.
 
 ### 4.1 Analysis of Tuning
 
@@ -121,7 +119,7 @@ Using a longer sequence length of 800 also increased the performance of all of t
 
 Although the same parameter values were ran for both plain text and HTML models, it's also clear that plain text and HTML benefit from different values of parameters. For predicting a decade of experience, sequence length strongly impacted HTML's accuracy whereas it did not for plain text. For predicting career switch, additional epochs decreased the accuracy for plain text, but increased the performance of HTML for a sequence length of 800. See figure for more details.
 
-< insert tunable figure here >
+
 
 ### 4.2 Analysis against Baselines
 
