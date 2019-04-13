@@ -119,7 +119,7 @@ Using a longer sequence length of 800 also increased the performance of all of t
 
 Although the same parameter values were ran for both plain text and HTML models, it's also clear that plain text and HTML benefit from different values of parameters. For predicting a decade of experience, sequence length strongly impacted HTML's accuracy whereas it did not for plain text. For predicting career switch, additional epochs decreased the accuracy for plain text, but increased the performance of HTML for a sequence length of 800. See figure for more details.
 
-
+![alt text](https://github.com/sxc2/w266-nlp-resumes/blob/master/docs/img/results_acc_lstm.png "Figure: LSTM Accuracies Tuning")
 
 ### 4.2 Analysis against Baselines
 
@@ -127,27 +127,24 @@ In general, bi-directional LSTM did well compared to the baseline models, with a
 
 Comparing results between plain text and HTML models, Naive Bayes performed worst in general and worse for HTML models. However, other models generally had comparable performance between the two types of data input (accuracies differed less than 0.5%) the only exception of predicting stay at job. Particularly notable is that HTML data worked the same or better for LSTM models across all three predictors.
 
-- line on why predict job is an outlier
-
-< insert baseline comparison figure here >
+![alt text](https://github.com/sxc2/w266-nlp-resumes/blob/master/docs/img/results_acc_baselines.png "Figure: Model Baselines against Test")
 
 ### 4.3 F1 Accuracy on LSTM Models
 
 Although absolute accuracy was similar for predicting decade of experience on LSTM models, the same is not true for f1-accuracy. Accounting for both precision and recall, the LSTM HTML models scored on average 4% better on f1-accuracy than plain text. Comparing confusion matrix for the best LSTM models on predicting experience, we see that not only is HTML a fraction more accurate, but also it's balances false positives and false negatives better than plain text.
 
-< insert f1 chart >
-< insert confusion matrices >
+![alt text](https://github.com/sxc2/w266-nlp-resumes/blob/master/docs/img/results_f1acc.png "Figure: F1-Accuracy")
+![alt text](https://github.com/sxc2/w266-nlp-resumes/blob/master/docs/img/confusion_matrix_html_plain.png "Figure: Confusion Matrix for HTML, Plain - Years of Exp")
 
-### 4.4 Analysis of Predictors
+### 4.4 Analysis of Predictors and Errors
 
 Among the three predictors, predicting career switchers had highest error rate for LSTMs. Partly due to the inherit difficulty of the task, error analysis showed that even humans would have a hard time correctly identifying the cases where LSTM had failed. The most salient terms identified by the Logistic regression baseline consisted of specific job titles, e.g. 'nurse', 'truck driver', 'teacher' and career attributes e.g. 'senior' and 'certified'. We conjecture that logistic regression has very similar performance to LSTM partly due to linear relationships for specific job function retention.
 
-Classifying whether someone had a decade more of work experience had a fairly high accuracy baseline of 90%, where salient terms identified from logistic regression were individual years previous to this decade. However, where LSTM improved significantly was the ability to identify work experience dates separately from dates in education, certifications or skill, e.g. 'SQL Server 2005' and reach a near perfect accuracy rate. The best model was HTML LSTM at sequence length 800 running 10 epochs, which outperformed plain text by a fraction of a percent.
+Classifying whether someone had a decade more of work experience had a fairly high accuracy baseline of 90%, where salient terms identified from logistic regression were individual years previous to this decade. However, where LSTM improved significantly was the ability to identify work experience dates separately from dates in education, certifications or skill, e.g. 'SQL Server 2005' and reach a near perfect accuracy rate. The best model was LSTM with HTML text at sequence length 800 running 10 epochs, which outperformed plain text by a fraction of a percent.
 
-LSTMs had the most success for HTML resumes on predicting whether someone stayed at the same job following year, a 23% increase from baseline. 
+HTML injected LSTMs had the most success predicting whether someone stayed at the same job following year, a 23% increase from baseline and 38% increase from plain text models. Confusion matrices show that HTML performed better in all four quadrants and excelled in true negatives, where it correctly identified 50% more folks who left their current job. However, the confidence in these predictions were relatively low. We hypothesize from error analysis that the HTML LSTM was able to identify the summary and current work experience sections which would contain the more relevant information on whether someone stayed at their current job.
 
-- insert more stuff here on analysis for staying at job
-
+![alt text](https://github.com/sxc2/w266-nlp-resumes/blob/master/docs/img/confusion_matrix_html_plain_stay.png "Figure: Confusion Matrix for HTML, Plain - Stay at Job")
 
 ## 5 Conclusion
 
