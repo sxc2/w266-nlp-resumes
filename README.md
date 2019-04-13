@@ -36,3 +36,7 @@ Example Results:
 - Copy the cleaned training data set into /data folder locally
 - Clone word2vec-slim into /data
 - Run one of the three notebooks for models
+
+## Raw Data Snippet
+
+- [Sample HTML](sample_resumes.html)
