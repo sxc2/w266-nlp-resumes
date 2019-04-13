@@ -15,13 +15,15 @@ Semi-structured documents encompass a wide corpus of documents available on the 
 
 Some datasets and models are too large for the repository and have been cross linked here:
 
-[Word2Vec Slim](https://github.com/eyaler/word2vec-slim)
+- [Word2Vec Slim](https://github.com/eyaler/word2vec-slim)
 
-[Resume Excerpt 1](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/indeed_com-job_deduped_n_merged_20170315_201357376193103.xml)
-[Resume Excerpt 2](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/indeed_com-job_deduped_n_merged_20170315_201536923698467.xml)
+- [Resume Excerpt 1](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/indeed_com-job_deduped_n_merged_20170315_201357376193103.xml)
+- [Resume Excerpt 2](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/indeed_com-job_deduped_n_merged_20170315_201536923698467.xml)
 
-[Cleaned Training Dataset 1](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_2_xml.p)
-[Cleaned Training Dataset 2](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_3_xml.p)
-[Cleaned Training Dataset 3](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_4_xml.p)
 
-[Sample Saved Results from LSTM](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/results_LSTM_years.p) 
+- [Cleaned Training Dataset 1](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_2_xml.p)
+- [Cleaned Training Dataset 2](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_3_xml.p)
+- [Cleaned Training Dataset 3](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/train_4_xml.p)
+
+
+- [Sample Saved Results from LSTM](https://s3-us-west-2.amazonaws.com/sophiaxcui.com/data/resume-nlp/results_LSTM_years.p) 
