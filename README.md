@@ -4,4 +4,4 @@
 W 266: Natural Language Processing
 UC Berkeley School of Information
 
-Findings
+Findings and [paper](ResumeStructureLSTM.pdf)
